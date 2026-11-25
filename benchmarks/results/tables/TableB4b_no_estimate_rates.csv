@@ -1,0 +1,81 @@
+scenario,label,tree_variant,method,n,n_no_estimate,frac_no_estimate,ci_lo,ci_hi
+S1,stable-state selection,true,Study D,300,0,0.0,0.0,0.012643429997735661
+S1,stable-state selection,true,PATH,300,39,0.13,0.09657483743516235,0.17278130076316203
+S1,stable-state selection,true,PASTRI,300,54,0.18,0.1406576554702192,0.2274341397283316
+S1,stable-state selection,true,SCOUT,300,0,0.0,0.0,0.012643429997735661
+S1,stable-state selection,true,Study D (k at bound),300,23,0.07666666666666666,,
+S1,stable-state selection,unit,Study D,300,0,0.0,0.0,0.012643429997735661
+S1,stable-state selection,unit,PATH,300,39,0.13,0.09657483743516235,0.17278130076316203
+S1,stable-state selection,unit,PASTRI,300,54,0.18,0.1406576554702192,0.2274341397283316
+S1,stable-state selection,unit,SCOUT,300,0,0.0,0.0,0.012643429997735661
+S1,stable-state selection,unit,Study D (k at bound),300,95,0.31666666666666665,,
+S2,"equal occupancy, rate varies",true,Study D,300,0,0.0,0.0,0.012643429997735661
+S2,"equal occupancy, rate varies",true,PATH,300,0,0.0,0.0,0.012643429997735661
+S2,"equal occupancy, rate varies",true,PASTRI,300,19,0.06333333333333334,0.04091655604878176,0.09679203948257407
+S2,"equal occupancy, rate varies",true,SCOUT,300,0,0.0,0.0,0.012643429997735661
+S2,"equal occupancy, rate varies",true,Study D (k at bound),300,40,0.13333333333333333,,
+S2,"equal occupancy, rate varies",unit,Study D,300,0,0.0,0.0,0.012643429997735661
+S2,"equal occupancy, rate varies",unit,PATH,300,0,0.0,0.0,0.012643429997735661
+S2,"equal occupancy, rate varies",unit,PASTRI,300,19,0.06333333333333334,0.04091655604878176,0.09679203948257407
+S2,"equal occupancy, rate varies",unit,SCOUT,300,0,0.0,0.0,0.012643429997735661
+S2,"equal occupancy, rate varies",unit,Study D (k at bound),300,84,0.28,,
+S3,"occupancy varies, equal rate",true,Study D,300,0,0.0,0.0,0.012643429997735661
+S3,"occupancy varies, equal rate",true,PATH,300,0,0.0,0.0,0.012643429997735661
+S3,"occupancy varies, equal rate",true,PASTRI,300,20,0.06666666666666667,0.04356717679698387,0.10072379586772039
+S3,"occupancy varies, equal rate",true,SCOUT,300,0,0.0,0.0,0.012643429997735661
+S3,"occupancy varies, equal rate",true,Study D (k at bound),300,17,0.056666666666666664,,
+S3,"occupancy varies, equal rate",unit,Study D,300,0,0.0,0.0,0.012643429997735661
+S3,"occupancy varies, equal rate",unit,PATH,300,0,0.0,0.0,0.012643429997735661
+S3,"occupancy varies, equal rate",unit,PASTRI,300,20,0.06666666666666667,0.04356717679698387,0.10072379586772039
+S3,"occupancy varies, equal rate",unit,SCOUT,300,0,0.0,0.0,0.012643429997735661
+S3,"occupancy varies, equal rate",unit,Study D (k at bound),300,98,0.32666666666666666,,
+S4,joint heterogeneity,true,Study D,300,0,0.0,0.0,0.012643429997735661
+S4,joint heterogeneity,true,PATH,300,0,0.0,0.0,0.012643429997735661
+S4,joint heterogeneity,true,PASTRI,300,27,0.09,0.06258980739496589,0.12777780520317736
+S4,joint heterogeneity,true,SCOUT,300,0,0.0,0.0,0.012643429997735661
+S4,joint heterogeneity,true,Study D (k at bound),300,28,0.09333333333333334,,
+S4,joint heterogeneity,unit,Study D,300,0,0.0,0.0,0.012643429997735661
+S4,joint heterogeneity,unit,PATH,300,0,0.0,0.0,0.012643429997735661
+S4,joint heterogeneity,unit,PASTRI,300,27,0.09,0.06258980739496589,0.12777780520317736
+S4,joint heterogeneity,unit,SCOUT,300,0,0.0,0.0,0.012643429997735661
+S4,joint heterogeneity,unit,Study D (k at bound),300,101,0.33666666666666667,,
+S5,environmental induction,true,Study D,300,0,0.0,0.0,0.012643429997735661
+S5,environmental induction,true,PATH,300,0,0.0,0.0,0.012643429997735661
+S5,environmental induction,true,PASTRI,300,29,0.09666666666666666,0.06814985592393716,0.13538251094090295
+S5,environmental induction,true,SCOUT,300,0,0.0,0.0,0.012643429997735661
+S5,environmental induction,true,Study D (k at bound),300,41,0.13666666666666666,,
+S5,environmental induction,unit,Study D,300,0,0.0,0.0,0.012643429997735661
+S5,environmental induction,unit,PATH,300,0,0.0,0.0,0.012643429997735661
+S5,environmental induction,unit,PASTRI,300,29,0.09666666666666666,0.06814985592393716,0.13538251094090295
+S5,environmental induction,unit,SCOUT,300,0,0.0,0.0,0.012643429997735661
+S5,environmental induction,unit,Study D (k at bound),300,120,0.4,,
+S6,founder bottleneck,true,Study D,300,0,0.0,0.0,0.012643429997735661
+S6,founder bottleneck,true,PATH,300,0,0.0,0.0,0.012643429997735661
+S6,founder bottleneck,true,PASTRI,300,23,0.07666666666666666,0.05162723750301175,0.11241086656173778
+S6,founder bottleneck,true,SCOUT,300,0,0.0,0.0,0.012643429997735661
+S6,founder bottleneck,true,Study D (k at bound),300,29,0.09666666666666666,,
+S6,founder bottleneck,unit,Study D,300,0,0.0,0.0,0.012643429997735661
+S6,founder bottleneck,unit,PATH,300,0,0.0,0.0,0.012643429997735661
+S6,founder bottleneck,unit,PASTRI,300,23,0.07666666666666666,0.05162723750301175,0.11241086656173778
+S6,founder bottleneck,unit,SCOUT,300,0,0.0,0.0,0.012643429997735661
+S6,founder bottleneck,unit,Study D (k at bound),300,84,0.28,,
+S7,unequal clonal expansion,true,Study D,300,0,0.0,0.0,0.012643429997735661
+S7,unequal clonal expansion,true,PATH,300,0,0.0,0.0,0.012643429997735661
+S7,unequal clonal expansion,true,PASTRI,300,9,0.03,0.015861673205964575,0.05602315099190695
+S7,unequal clonal expansion,true,SCOUT,300,0,0.0,0.0,0.012643429997735661
+S7,unequal clonal expansion,true,Study D (k at bound),300,27,0.09,,
+S7,unequal clonal expansion,unit,Study D,300,0,0.0,0.0,0.012643429997735661
+S7,unequal clonal expansion,unit,PATH,300,0,0.0,0.0,0.012643429997735661
+S7,unequal clonal expansion,unit,PASTRI,300,9,0.03,0.015861673205964575,0.05602315099190695
+S7,unequal clonal expansion,unit,SCOUT,300,0,0.0,0.0,0.012643429997735661
+S7,unequal clonal expansion,unit,Study D (k at bound),300,55,0.18333333333333332,,
+S8,observation misspecification,true,Study D,300,0,0.0,0.0,0.012643429997735661
+S8,observation misspecification,true,PATH,300,0,0.0,0.0,0.012643429997735661
+S8,observation misspecification,true,PASTRI,300,31,0.10333333333333333,0.07375612591943384,0.14294099521210313
+S8,observation misspecification,true,SCOUT,300,0,0.0,0.0,0.012643429997735661
+S8,observation misspecification,true,Study D (k at bound),300,39,0.13,,
+S8,observation misspecification,unit,Study D,300,0,0.0,0.0,0.012643429997735661
+S8,observation misspecification,unit,PATH,300,0,0.0,0.0,0.012643429997735661
+S8,observation misspecification,unit,PASTRI,300,31,0.10333333333333333,0.07375612591943384,0.14294099521210313
+S8,observation misspecification,unit,SCOUT,300,0,0.0,0.0,0.012643429997735661
+S8,observation misspecification,unit,Study D (k at bound),300,114,0.38,,

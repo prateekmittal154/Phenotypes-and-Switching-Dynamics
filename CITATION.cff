@@ -1,0 +1,57 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "cancer-lineage-state-dynamics"
+abstract: >-
+  Computational analysis of phenotypic inheritance, state occupancy and switching
+  dynamics in cancer lineage tracing. Separates across-clone variance in state
+  occupancy from across-clone variance in switching kinetics, establishes the
+  identifiability window within which a lineage tree can resolve a switching rate,
+  and benchmarks the estimators against PATH, PASTRI and the OUwie engine.
+type: software
+authors:
+  - family-names: "Mittal"
+    given-names: "Prateek"
+license: MIT
+repository-code: "https://github.com/REPLACE_OWNER/cancer-lineage-state-dynamics"
+keywords:
+  - lineage tracing
+  - CRISPR recorders
+  - cell-state plasticity
+  - identifiability
+  - metastasis
+  - phylogenetics
+  - cancer evolution
+references:
+  - type: article
+    title: "Single-cell lineage tracing of metastatic cancer reveals selection of hybrid EMT states"
+    authors:
+      - family-names: "Simeonov"
+        given-names: "Kamen P."
+    journal: "Cancer Cell"
+    volume: 39
+    issue: 8
+    start: 1150
+    end: 1162
+    year: 2021
+    notes: "Source of the pancreatic macsGESTALT dataset, GSE173958"
+  - type: article
+    title: "Single-cell lineages reveal the rates, routes, and drivers of metastasis in cancer xenografts"
+    authors:
+      - family-names: "Quinn"
+        given-names: "Jeffrey J."
+    journal: "Science"
+    volume: 371
+    issue: 6532
+    year: 2021
+    notes: "Source of the lung Cassiopeia dataset, GSE161363"
+  - type: article
+    title: "Defining heritability, plasticity, and transition dynamics of cellular phenotypes in somatic evolution"
+    authors:
+      - family-names: "Schiffman"
+        given-names: "Joshua S."
+    journal: "Nature Genetics"
+    volume: 56
+    start: 2174
+    end: 2184
+    year: 2024
+    notes: "PATH, benchmarked here"

@@ -1,0 +1,30 @@
+{
+ "M1_cells_with_tree": 10608,
+ "M1_clones": 29,
+ "M1_pt_quartile_cuts": [
+  -0.5617974565489168,
+  0.04825502077483695,
+  0.5231429815899339
+ ],
+ "M1_emt_vs_authors_pseudotime_spearman": [
+  0.7550719682391374,
+  0.0
+ ],
+ "M1_H1_clone_PTfracLH_vs_aggression_spearman": [
+  -0.05347407899331232,
+  0.8384861477956523,
+  17
+ ],
+ "M2_cells_with_tree": 13834,
+ "M2_clones": 66,
+ "M2_pt_quartile_cuts": [
+  -0.41871560621286197,
+  0.036249357926695966,
+  0.45338220564968024
+ ],
+ "M2_H1_clone_PTfracLH_vs_aggression_spearman": [
+  0.14798713353289727,
+  0.4189177824194725,
+  32
+ ]
+}

@@ -1,0 +1,2 @@
+"rep_dir","scenario","tree_variant","clone","n_cells","frac_state1","PATH_k","PATH_pi","PATH_pswitch","PATH_note","PATH_secs","PASTRI_k","PASTRI_pi","PASTRI_pswitch","PASTRI_note","PASTRI_secs","SCOUT_alpha","SCOUT_theta","SCOUT_sigma2","SCOUT_model","SCOUT_note","SCOUT_secs"
+"data/real_trees/quinn_30k__4","quinn_30k__4","unit",4,132,0.515151515151515,1.49178086896687,0.494949494949495,0.775028346456805,"",0.052,Inf,0.512627625531791,1,"",7.522,NA,NA,NA,NA,"OU1 error",0.0210000000000008

@@ -1,0 +1,6 @@
+"fi_depth","p_switch","k","pi","rep_dir","scenario","tree_variant","clone"
+0.2,1,Inf,0.294701762528542,"data/real_trees/quinn_30k__4","quinn_30k__4","unit",4
+0.4,1,Inf,0.512627625531791,"data/real_trees/quinn_30k__4","quinn_30k__4","unit",4
+0.6,0.974833352336047,3.68223566647027,0.503091226118233,"data/real_trees/quinn_30k__4","quinn_30k__4","unit",4
+0.8,0.97335383327142,3.62510997629264,0.500151514892443,"data/real_trees/quinn_30k__4","quinn_30k__4","unit",4
+1,0.978858239007849,3.85650500058315,0.504258952396344,"data/real_trees/quinn_30k__4","quinn_30k__4","unit",4

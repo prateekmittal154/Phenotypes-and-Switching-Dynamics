@@ -1,0 +1,19 @@
+# Python environment for the primary analysis.
+# R dependencies for the benchmarks are separate: see benchmarks/environments/README.md
+name: cldyn
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy=2.*
+  - scipy=1.*
+  - pandas=2.*
+  - matplotlib-base=3.*
+  - cycler
+  - pytest
+  - jupyter
+  - nbformat
+  - nbclient
+  - pip
+  - pip:
+      - -e .

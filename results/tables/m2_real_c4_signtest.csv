@@ -1,0 +1,7 @@
+mouse,site,n_clones,n_negative,p_sign
+1,Met,4,4,0.125
+1,Liver,5,4,0.375
+1,Lung,2,2,0.5
+2,Met,4,3,0.625
+2,Liver,6,4,0.6875
+2,Lung,1,1,1.0

@@ -1,0 +1,5 @@
+options(repos=c(CRAN="https://cloud.r-project.org"), Ncpus=12, timeout=3600)
+if (!requireNamespace("BiocManager", quietly=TRUE)) install.packages("BiocManager")
+BiocManager::install(c("fgsea","ggtree"), ask=FALSE, update=FALSE)
+for (p in c("fgsea","ggtree")) cat(sprintf("%-10s %s\n", p, if (requireNamespace(p, quietly=TRUE)) as.character(packageVersion(p)) else "MISSING"))
+cat("DONE_BIOC\n")

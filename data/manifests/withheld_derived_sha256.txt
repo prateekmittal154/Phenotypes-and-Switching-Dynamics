@@ -1,0 +1,4 @@
+# SHA-256 of the derived tables withheld from this repository.
+# Regenerate with scripts/preprocess_simeonov.py and compare.
+2c8737fc2c436e834501d691c44be7982bb9d4025bfadfb1f7c5bfb64b8f83b2  m2_real_M1_cells.csv.gz
+4f02be127fb39438b043ffdac897fe074e35e5f88f2c8b1bc924fb1c9daa13e7  m2_real_M2_cells.csv.gz

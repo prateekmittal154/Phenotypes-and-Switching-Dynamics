@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+.venv/
+venv/
+env/
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.Rhistory
+.RData
+.Rapp.history
+
+# data retrieved by the user, never committed
+data/raw/
+data/processed/
+data/derived/
+
+# large local run artefacts
+benchmarks/data/
+benchmarks/logs/
+benchmarks/environments/renv/
+*.log

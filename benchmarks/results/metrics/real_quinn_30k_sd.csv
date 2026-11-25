@@ -1,0 +1,2 @@
+rep_dir,scenario,tree_variant,clone,n_cells,StudyD_pi,StudyD_k,StudyD_k_at_bound,StudyD_loglik,StudyD_secs,StudyD_note
+data/real_trees/quinn_30k__4,quinn,unit,4,132,0.5165230124810893,1.7226205681867808,0,-91.4017764079246,0.7124876976013184,

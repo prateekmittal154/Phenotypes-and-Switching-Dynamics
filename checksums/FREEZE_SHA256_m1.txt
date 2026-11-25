@@ -1,0 +1,5 @@
+# Frozen 2026-11-23T17:36:35+0530 before any experiment was run
+b54f4cee5f83b08a410913f39317013ca082d5648f3beef899c98b99da58df39  protocols/decision_gates.md
+2e05d75c660e70f58d4efc651616d355707c0403d32796d18bc6646152dfca9b  protocols/research_questions.md
+7287cd1a05f96308fc2b6d81328d28a9aa61d9bfce95ec465d531a0f27bf1d5f  protocols/simulation_protocol.md
+bd0f8d69e2750c27b71b01b4645f5e9588e568e6b7a2ef15f9a16dbc7fafc977  protocols/statistical_analysis_plan.md

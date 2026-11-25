@@ -1,0 +1,5 @@
+mouse,state,n_cells,n_sites,n_lineage_groups,n_trees_usable,cells_in_trees,primary_cells
+5k,state2,37814,6,100,74,11846,11106
+30k,state2,17189,6,4,3,1031,1588
+10k,state2,2541,9,13,11,2365,930
+100k,state2,5806,6,31,15,2045,4430

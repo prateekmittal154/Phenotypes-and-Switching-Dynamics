@@ -1,0 +1,10 @@
+attribute,StudyD,PATH,PASTRI,SCOUT
+Native estimand,"per-clone (pi_c, k_c) by ML; across-clone variance components V_pi, V_log k",phylogenetic auto/cross-correlation (xcor); transition matrix P and rate matrix Q=logm(P),"per-cell-cycle transition probability matrix T, per depth window d<=fi_depth","Ornstein-Uhlenbeck alpha (reversion rate), theta (optimum), sigma^2 (drift)"
+Input phenotype,binary,categorical (one-hot) or continuous,categorical cell-type labels,continuous
+Tree requirements,"topology and per-edge lengths (VarTree), or unit edges (FastTree)",topology; branch lengths enter only via the mean patristic distance,topology only; depth is node-count based (lca_normalized_height),"topology; branch lengths if present, unit edges substituted if absent"
+Dynamics assumed,two-state time-homogeneous CTMC per clone,time-homogeneous Markov transitions; stationarity for the correlation statistic,rates may vary with depth; optional hard irreversibility constraints,OU process; regimes may be assigned per clade
+Output type,"point estimates, profile intervals, calibrated LR tests",point estimates; analytical z-test for xcor only; no interval on Q,"point estimate per depth window; permutation test in the paper, no per-rate CI",point estimates plus AICc model selection
+Compatible simulations,S1-S8 (binary),S1-S8 (binary),S1-S8 (binary); S5 targets its stage-specific design,the OU trait generated alongside the binary state in every scenario
+Valid Study D comparator,n/a,Q off-diagonals <-> k; stationary distribution of Q <-> pi,"off-diagonals of T, converted by k=-log(1-p) <-> k; stationary distribution <-> pi",alpha <-> k ONLY as an autocorrelation decay rate; Var_c(theta) <-> V_pi
+Comparisons that must NOT be made,n/a,no interval-coverage comparison for PATH_inf; absolute rate only on a matched branch-length convention,"no interval coverage; invariance to branch rescaling is a design consequence, not an error",alpha is not a binary switching rate and is never plotted on the same axis as k
+Reports uncertainty usable for coverage,yes (profile likelihood),no (for PATH_inf),no,yes (likelihood / AICc)
